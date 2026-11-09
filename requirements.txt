@@ -1,0 +1,16 @@
+# Definir las dependencias requeridas para la aplicación de Streamlit
+requirements = """streamlit
+pandas
+numpy
+jolib
+scikit-learn
+plotly
+"""
+
+# Guardar las dependencias en el archivo requirements.txt
+with open('requirements.txt', 'w', encoding='utf-8') as f:
+    f.write(requirements.strip())
+
+print("¡Archivo 'requirements.txt' creado con éxito!")
+# Mostrar el contenido del archivo generado
+!cat requirements.txt
