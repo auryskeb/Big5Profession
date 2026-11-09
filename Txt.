@@ -13,7 +13,4 @@ with open('requirements.txt', 'w', encoding='utf-8') as f:
 print("¡Archivo 'requirements.txt' creado con éxito!")
 # Mostrar el contenido del archivo generado
 !cat requirements.txt
-streamlit
 joblib
-pandas
-scikit-learn
